@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# modified from https://github.com/neovim/neovim/blob/master/INSTALL.md#appimage-universal-linux-package
 wget https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
 ./nvim.appimage --appimage-extract

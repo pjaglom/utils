@@ -10,5 +10,6 @@ rm nvim.appimage
 git clone https://github.com/pjaglom/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 cd ~/.config/nvim
 git checkout -b primeagen origin/primeagen
+git config --global core.editor nvim
 echo "alias vi='nvim'" >> ~/.bashrc
 

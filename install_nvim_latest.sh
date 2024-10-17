@@ -1,5 +1,7 @@
 #! /bin/bash
 
+sudo apt update
+sudo apt install ripgrep clangd
 # modified from https://github.com/neovim/neovim/blob/master/INSTALL.md#appimage-universal-linux-package
 wget https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
